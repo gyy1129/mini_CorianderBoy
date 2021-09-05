@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "dateTimePicker": "/components/dateTimePicker/index",
+    "noData":"/components/noData/index",
+    "article":"/components/article/index"
+  }
+}

@@ -1,0 +1,43 @@
+.top {
+  display: flex;
+  margin: 20rpx 15rpx 0 15rpx;
+  border-radius: 20rpx;
+  background-color: #e4e9e0;
+}
+
+.header {
+  margin: 15rpx 0 15rpx 25rpx;
+  width: 250rpx;
+  height: 185rpx;
+}
+
+.header image {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 30rpx;
+  box-shadow: 0 3rpx 7rpx 0 rgba(111, 133, 102);
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15rpx;
+  margin-top: 50rpx;
+}
+
+.name .name-title {
+  font-size: 28rpx;
+  color: #4c5e41;
+  font-weight: 500;
+  margin-bottom: 10rpx;
+}
+
+.name .introduce {
+  font-size: 22rpx;
+  color: #6f7e65;
+}
+.content{
+  margin: 120rpx auto;
+  font-size: 28rpx;
+  color: #63705a;
+}

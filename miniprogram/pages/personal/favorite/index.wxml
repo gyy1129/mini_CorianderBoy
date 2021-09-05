@@ -1,0 +1,13 @@
+<view class="top">
+  <text>你喜欢了关于王一博文章共 {{totalLike}} 篇</text>
+</view>
+<view class="line"></view>
+<scroll-view scroll-y class="list">
+  <view wx:for="{{list}}" wx:key="index" class="item" bindtap="toDetail" data-id="{{item._id}}">
+    <text class="title">{{item.title}}</text>
+    <text class="time">{{item.time}}</text>
+    <view class="content">
+      <text>{{item.contents}}</text>
+    </view>
+  </view>
+</scroll-view>

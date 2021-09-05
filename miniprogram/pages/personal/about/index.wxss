@@ -1,0 +1,21 @@
+.containter{
+  display: flex;
+  flex-direction:column;
+  margin-top: 100rpx;
+}
+.containter .content{
+  margin: 30rpx auto;
+  font-size: 35rpx;
+  color: #4a6152;
+  font-weight: 500;
+}
+.containter .edition{
+  margin: 30rpx auto;
+  font-size: 30rpx;
+  color: #4a6152;
+}
+.containter .copyright{
+  margin: 0 auto;
+  font-size: 22rpx;
+  color: #4a6152;
+}

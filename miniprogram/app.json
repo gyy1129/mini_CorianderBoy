@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/personal/index",
+    "pages/works/index",
+    "pages/home/index",
+    "pages/details/index",
+    "pages/personal/favorite/index",
+    "pages/personal/collection/index",
+    "pages/personal/contact/index",
+    "pages/personal/logout/index",
+    "pages/personal/edit/index",
+    "pages/personal/about/index",
+    "components/noData/index"
+  ],
+  "window": {
+    "backgroundColor": "#f6f6f6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "香菜男孩",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#3f6b47",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [{
+        "pagePath": "pages/home/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/works/index",
+        "iconPath": "images/message.png",
+        "selectedIconPath": "images/message_select.png",
+        "text": "专题"
+      },
+      {
+        "pagePath": "pages/personal/index",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me_select.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

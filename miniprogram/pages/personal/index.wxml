@@ -1,0 +1,51 @@
+<view class="userCenter_wrap">
+  <!-- 个人信息 -->
+  <view>
+    <!-- 有登陆信息 -->
+    <view wx:if="{{hasUserInfo}}" class="userCenter_top">
+      <open-data type="userAvatarUrl" class="avatar"></open-data>
+      <view bindtap="goLogout">
+        <open-data type="userNickName" class="name"></open-data>
+        <text class="signature">{{signature}}</text>
+      </view>
+    </view>
+    <!-- 没有登录信息 要先登录 -->
+    <view wx:else class="userCenter_top">
+      <image src="../../images/head.png" class="avatar" bindtap="goLogin"></image>
+      <text class="name" bindtap="goLogin">请先登录账号</text>
+    </view>
+  </view>
+  <!-- 列表功能 -->
+  <view class="list">
+    <view class="item" bindtap="toCollect">
+      <image src="../../images/collections.png"></image>
+      <text>我的收藏</text>
+      <text class="iconfont icon-arrow-right"></text>
+    </view>
+    <view class="item" bindtap="toLike">
+      <image src="../../images/love.png"></image>
+      <text>我的喜欢</text>
+      <text class="iconfont icon-arrow-right"></text>
+    </view>
+    <!-- <view class="item" bindtap="toBrowse">
+      <image src="../../images/browse.png"></image>
+      <text>最近浏览</text>
+      <text class="iconfont icon-arrow-right"></text>
+    </view> -->
+    <view class="item" bindtap="toEdit">
+      <image src="../../images/edit.png"></image>
+      <text>设置签名</text>
+      <text class="iconfont icon-arrow-right"></text>
+    </view>
+    <view class="item" bindtap="toMe">
+      <image src="../../images/wx.png"></image>
+      <text>联系作者</text>
+      <text class="iconfont icon-arrow-right"></text>
+    </view>
+    <view class="item" bindtap="toAbout">
+      <image src="../../images/help.png"></image>
+      <text>关于</text>
+      <text class="iconfont icon-arrow-right"></text>
+    </view>
+  </view>
+</view>

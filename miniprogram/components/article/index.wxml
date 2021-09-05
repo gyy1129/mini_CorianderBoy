@@ -1,0 +1,23 @@
+<view wx:for="{{list}}" wx:key="index">
+  <view class="item">
+    <view bindtap="toDetails" data-id='{{item._id}}'>
+      <image src="{{item.imgURL}}" class="picture"></image>
+      <view class="introduction" style="width:{{isCollapse?'542rpx':'450rpx'}}">
+        <text>{{item.contents}}</text>
+      </view>
+    </view>
+    <view class="content-footer">
+      <view class="time">
+        <text>{{item.time}}</text>
+      </view>
+      <view class="like" bindtap="likeChoose" data-id='{{item._id}}'>
+        <image src="{{!item.likeStatus?nolike:yeslike}}" class="image"></image>
+        <text class="text">{{item.totalLike}}</text>
+      </view>
+      <view class="collect" bindtap="collectChoose" data-id='{{item._id}}'>
+        <image src="{{!item.collectStatus?nocollect:yescollect}}" class="image"></image>
+      </view>
+    </view>
+  </view>
+  <slot></slot>
+</view>

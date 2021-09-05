@@ -1,0 +1,6 @@
+<view class="containter">
+  <form bindsubmit="save">
+    <textarea placeholder="设置个性签名，不要超过30字" class="edit" maxlength="60" value="{{signature}}" name="textarea" bindinput="edit"/>
+    <button size="mini" type="primary" class="mini-btn" plain="true" form-type="submit" disabled="{{isDisabled}}">保存</button>
+  </form>
+</view>

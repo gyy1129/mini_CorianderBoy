@@ -1,0 +1,12 @@
+.noData{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40rpx;
+  justify-content: center;
+  align-items: center;
+}
+.noData .noDataImg{
+  width:300rpx;
+}
+

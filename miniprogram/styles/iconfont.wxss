@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2668365 */
+  src: url('//at.alicdn.com/t/font_2668365_8wbbr4mltc.woff2?t=1627543392169') format('woff2'),
+       url('//at.alicdn.com/t/font_2668365_8wbbr4mltc.woff?t=1627543392169') format('woff'),
+       url('//at.alicdn.com/t/font_2668365_8wbbr4mltc.ttf?t=1627543392169') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-quxiao:before {
+  content: "\e613";
+}
+
+.icon-xianshi_quxiaotianchong:before {
+  content: "\e61f";
+}
+
+.icon-iconzhucetouxiang-copy:before {
+  content: "\f7f8";
+}
+
+.icon-iconzhucetouxiang:before {
+  content: "\e62d";
+}
+
+.icon-yonghutouxiang:before {
+  content: "\e602";
+}
+
+.icon-xiaoxi:before {
+  content: "\f7f7";
+}
+
+.icon-fenlei:before {
+  content: "\f7e7";
+}
+
+.icon-shouye:before {
+  content: "\f7f4";
+}
+
+.icon-wode:before {
+  content: "\f7f6";
+}
+
+.icon-weixin:before {
+  content: "\e8bc";
+}
+
+.icon-daiyan:before {
+  content: "\e615";
+}
+
+.icon-zanwushuju:before {
+  content: "\e60b";
+}
+
+.icon-aixin1:before {
+  content: "\e8c3";
+}
+
+.icon-shoucang1:before {
+  content: "\e8c6";
+}
+
+.icon-mingxinghuodong:before {
+  content: "\e8b3";
+}
+
+.icon-all:before {
+  content: "\e6ef";
+}
+
+.icon-integral:before {
+  content: "\e6f9";
+}
+
+.icon-category:before {
+  content: "\e747";
+}
+
+.icon-listing-content:before {
+  content: "\e756";
+}
+
+.icon-signboard:before {
+  content: "\e765";
+}
+
+.icon-textile-products:before {
+  content: "\e769";
+}
+
+.icon-training:before {
+  content: "\e76a";
+}
+
+.icon-viewgallery:before {
+  content: "\e76c";
+}
+
+.icon-jiaobiao:before {
+  content: "\e7c2";
+}
+
+.icon-sousuo:before {
+  content: "\e8bb";
+}
+
+.icon-aixin:before {
+  content: "\e8ab";
+}
+
+.icon-bianji:before {
+  content: "\e8ac";
+}
+
+.icon-shezhi:before {
+  content: "\e8b7";
+}
+
+.icon-shoucang:before {
+  content: "\e8b9";
+}
+
+.icon-tanhao:before {
+  content: "\e8ba";
+}
+
+.icon-yanjing:before {
+  content: "\e8bf";
+}
+
+.icon-arrow-right:before {
+  content: "\e743";
+}

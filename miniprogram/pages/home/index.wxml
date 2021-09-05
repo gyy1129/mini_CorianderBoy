@@ -1,0 +1,16 @@
+<!-- 上部 -->
+<view class="top">
+  <!-- 头像 -->
+  <view class="header">
+    <image src="../../images/weiboheader.jpg"></image>
+  </view>
+  <!-- 名称 -->
+  <view class="name">
+    <text class="name-title">UNIQ-王一博</text>
+    <text class="introduce">UNIQ组合成员；演员，代表作《陪你到世界之巅》、《陈情令》</text>
+  </view>
+</view>
+<!-- 内容 -->
+<view class="content">
+  <text>内容未想好...</text>
+</view>

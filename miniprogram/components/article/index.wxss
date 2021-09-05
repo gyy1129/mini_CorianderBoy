@@ -1,0 +1,65 @@
+ .item {
+   margin-bottom: 16rpx;
+   background-color: rgb(236, 236, 236);
+   border-radius: 10rpx;
+   box-shadow: 0 3rpx 7rpx 0 rgba(230, 230, 230, 0.5);
+ }
+
+ .item .picture {
+   width: 250rpx;
+   height: 250rpx;
+   margin-left: 20rpx;
+   margin-top: 15rpx;
+   object-fit: cover;
+   border-radius: 10rpx;
+ }
+
+ .item .introduction {
+   width: 450rpx;
+   margin-left: 20rpx;
+   font-size: 24rpx;
+   color: #607552;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: hidden;
+ }
+
+ .item .content-footer {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   margin: 0 0 5rpx 20rpx;
+   width: 520rpx;
+   color: #8fa780;
+ }
+
+ .item .content-footer .time {
+   font-size: 22rpx;
+ }
+
+ .item .content-footer .like {
+   display: inline-flex;
+   align-items: center;
+ }
+
+ .item .content-footer .like .image {
+   position: relative;
+   width: 30rpx;
+   height: 30rpx;
+   margin-left: 250rpx;
+   margin-bottom: 8rpx;
+ }
+
+ .item .content-footer .like .text {
+   margin-left: 10rpx;
+   font-size: 25rpx;
+   margin-bottom: 10rpx;
+ }
+
+ .item .content-footer .collect .image {
+   width: 30rpx;
+   height: 30rpx;
+   margin-left: 20rpx;
+   margin-bottom: 5rpx;
+   font-size: 30rpx;
+ }

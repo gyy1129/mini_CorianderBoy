@@ -1,0 +1,24 @@
+.containter {
+  display: flex;
+  flex-direction: column;
+}
+
+.containter .edit {
+  width: 600rpx;
+  height: 180rpx;
+  margin: 30rpx auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20rpx;
+  box-shadow: 0 3rpx 7rpx 0 rgba(230, 230, 230);
+  font-size: 30rpx;
+  padding: 20rpx 15rpx;
+  color: #4a6152;
+}
+
+.containter .mini-btn {
+  margin-right: 72rpx;
+  /* color: #30583e ! important; */
+  /* border-color: #577a57 ! important; */
+  font-size: 30rpx ! important;
+  float: right;
+}

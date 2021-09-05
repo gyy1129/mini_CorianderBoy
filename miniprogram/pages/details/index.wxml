@@ -1,0 +1,12 @@
+<view class="container" wx:if="{{length>0}}">
+  <view class="top">
+    <text class="title">{{list.title}}</text>
+    <text class="time">{{list.time}}</text>
+  </view>
+  <view class="content">
+    <text>{{list.contents}}</text>
+  </view>
+  <view class="img" wx:for="{{imgArr}}" wx:key="index">
+    <image src="{{item}}" bindtap="previewImg" mode="widthFix" data-src='{{item}}'></image>
+  </view>
+</view>

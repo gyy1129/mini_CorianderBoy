@@ -1,0 +1,29 @@
+.containter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+}
+
+.containter .title {
+  margin: 30rpx auto;
+  font-size: 26rpx;
+  color: #44584b;
+}
+
+.containter .title1 {
+  margin: 30rpx auto;
+  font-size: 26rpx;
+  color: #44584b;
+}
+
+.containter .img {
+  display: inline-flex;
+  margin: 8rpx auto;
+}
+
+.containter .img image {
+  margin: 0 auto;
+  max-width: 88%;
+  height: auto;
+  overflow: hidden;
+}

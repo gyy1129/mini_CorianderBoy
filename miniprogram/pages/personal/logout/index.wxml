@@ -1,0 +1,4 @@
+<!--miniprogram/pages/logout/index.wxml-->
+<view class="logout">
+  <button type="primary" bindtap="goLogout">退出当前用户</button>
+</view>
